@@ -1,20 +1,33 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+
+
 body {
     margin: 0;
-    padding: 0;
-    background-color: #FFC017;
-    position: relative;
-    display: block;
-    
+    padding: 0;  
 }
 
-/* .navbar {
-    text-align: right;
-    background-color: #FFC017;
-    border-bottom: 2px solid black;
-    
-   
+.navbar{
+   position: sticky;
+   top: 0;
+   z-index: 9999;
+   border-bottom: 1px solid black; 
   }
-  
+  .nav-btn{
+    background-color: black;
+    border-radius: 3rem;
+    border: none;
+    width: 120px;
+    margin-left: 1rem;
+    
+  }
+  .nav-btn a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
   .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -30,8 +43,136 @@ body {
   .navbar li:first-child {
     margin-left: 0;
   }
-   */
 
+ 
+  
+ .section-1{
+  background-color: rgb(255, 192, 0);
+  height: 400px;
+ }
+
+ .sec-top h1{
+  height: 100px;
+  font-size: 5rem;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ 
+
+ .sec-bottom h3{
+  margin-top: 2rem;
+ }
+
+ .section-button{
+  width: 200px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-top: 3rem;
+ }
+
+ .img{
+  max-width: 20px;
+ }
+ 
+ .box{
+  margin: 1.5rem;
+ }
+
+ .box a{
+  color:black;
+  text-decoration: none;
+  
+ }
+
+ .top{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: white;
+  transition: background-color 0.3 ease;
+  padding: 10px ;
+
+ }
+ 
+ .top a{
+  z-index: 9999;
+  white-space: nowrap;
+  color: rgba(41, 41, 41, 1);
+  transition: 300ms ease;
+  border: 1px solid rgba(242, 242, 242, 1);
+  border-radius: 100px;
+  background-color: rgba(242, 242, 242, 1);
+  position: relative;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-weight: 400;
+  padding: 8px 16px;
+  box-sizing: inherit;
+  text-decoration: none;
+  display: inline-flex;
+  margin-top: 1rem;
+
+ }
+ .top a:hover{
+  background-color:lightgray;
+  color:black;
+
+ }
+
+ .buttondeneme{
+  background-color: white;
+  transition: background-color 0.3 ease;
+  padding: 10px;
+
+ }
+
+ .buttondeneme:hover{
+  color: green;
+  cursor: pointer;
+ }
+
+ .bottom a{
+  color: gray;
+  text-decoration: none;
+  margin: 1.5rem;
+ }
+ .boxnumber{
+  position: relative;
+  right: 1.5rem;
+  font-size: 32px;
+  color:rgba(230, 230, 230, 1);
+  line-height: 38px;
+  letter-spacing: -0.014em;
+  font-weight: 500;
+  
+ }
+
+ .font{
+  color: rgba(117, 117, 117, 1);
+  font-size: 13px;
+  line-height: 20p;
+  font-weight: 400;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
+ .font2 {
+ color: rgba(117, 117, 117, 1);
+ font-size: 16px;
+ overflow: hidden;
+ line-height: 20px;
+ max-height: 40px;
+ -webkit-line-clamp: 2;
+ cursor: pointer;
+ letter-spacing: inherit;
+
+ }
+ 
   
 
   
