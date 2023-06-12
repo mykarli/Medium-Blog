@@ -1,11 +1,35 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
-
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
 
 body {
-    margin: 0;
-    padding: 0;  
+	margin: 0px;
+}
+
+#container {
+	
+	position: absolute;
+	margin: auto;
+	width: 100vw;
+	height: 80pt;
+	top: 0;
+	bottom: 0;
+	
+	
+	filter: url(#threshold) blur(0.6px);
+}
+
+
+#text1, #text2 {
+	position: absolute;
+	width: 100%;
+	display: inline-block;
+	
+	font-family: 'Raleway', sans-serif;
+	font-size: 80pt;
+	
+	text-align: center;
+	
+	user-select: none;
 }
 
 .navbar{
@@ -43,8 +67,9 @@ body {
   .navbar li:first-child {
     margin-left: 0;
   }
+  
 
- 
+
   
  .section-1{
   background-color: rgb(255, 192, 0);
@@ -60,7 +85,6 @@ body {
  }
 
  
-
  .sec-bottom h3{
   margin-top: 2rem;
  }
@@ -173,6 +197,131 @@ body {
 
  }
  
-  
+/* OURSTORY CSS BÖLÜMÜ */
+
+.ourstory .section-1{
+ height: 200px;
+
+
+}
+
+.ourstory .navbar{
+  background-color: white;
+}
+
+
+
+.block{
+  background-color: black;
+  width: 100%;
+  height: .5px;
+  margin-bottom: 20px;
+}
+
+.baslik{
+text-align: center;
+font-size: 100px;
+font-family: 'Gt super text book', Georgia, sans-serif;
+
+}
+
+.hero{
+  margin-top: 100px;
+}
+
+.paragraph{
+  border-right: 1px solid black;
+}
+
+.ourstory .section-2 .paragraph-intro{
+  padding-right: 0px;
+  padding-left: 0px;
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  line-height: 127%;
+  padding-bottom: 10px;
+  font-family: 'Soehne web buch', sans-serif;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+  width: 80% ;
+}
+.section-3{
+  width: 100%;
+  height: 750px;
+  background-color: #ffd1b9;
+}
+.myh2{
+  font-family: 'Gt super text book', Georgia, sans-serif;
+  font-size: 80px;
+}
+.paragraph2{
+  text-align: center;
+}
+.block2{
+  background-color: black;
+  width: 100%;
+  height: .5px;
+}
+.profileimg{
+  width: 50px;
+  height: 50px;
+}
+.profilep{
+  font-size: 30px;
+}
+
+.section-4{
+  background-color: black;
+}
+
+.myh3{
+  padding: 30px;
+  color: #fff;
+  font-size: 5.3vw;
+  font-family: 'Gt super text book', Georgia, sans-serif;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: -0.4vw;
+  margin-top: 0px;
+}
+.myh4{
+  margin-top: 70px;
+  color: #fff;
+  font-size: 22px;
+}
+.myimg2{
+  margin-top:  50px; 
+  width: 150px;
+  height: 150px;
+}
+.block3{
+  border-radius: 70%;
+  margin-top: 50px;
+  margin-left: 20px;
+  background-color: blue;
+  width: 70px;
+  height: 140px;
+}
+.block4{
+  border-radius: 70%;
+  margin-top: 50px;
+  margin-left: 20px;
+  background-color: pink;
+  width: 30px;
+  height: 140px;
+}
+.myp2{
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.leftborder{
+  border-left: 1px solid white;
+}
+
 
   
