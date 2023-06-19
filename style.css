@@ -1,5 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+img{
+  max-width: 100%;
+}
 
 body {
 	margin: 0px;
@@ -952,5 +955,72 @@ font-family: 'Gt super text book', Georgia, sans-serif;
   border: none;
   font-family: 'Soehne web buch', sans-serif;
   font-size: 20px;
+  
+}
+
+.social-btn button{
+  border: .8px solid black;
+  border-radius: 2rem;
+  background-color: white;
+  width: 200px;
+  height: 30px;
+  margin:5px;
+
+}
+
+.social-btn button a{
+  text-decoration: none;
+  color:black
+  
+}
+
+.social-btn img{
+  width: 18px;
+  vertical-align: middle;
+  margin-right: 8px;
+  
+}
+
+.myh21{
+  color:rgba(41, 41, 41, 41);
+  font-size: 16px;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.createone{
+  color: rgb(26, 137, 23);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.getstarted-btn img{
+  width: 18px;
+  vertical-align: middle;
+  margin-right: 8px;
+  
+}
+
+.myh22{
+  color:rgba(41, 41, 41, 41);
+  font-size: 16px;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+
+}
+
+.getstarted-btn button{
+  border: .8px solid black;
+  border-radius: 2rem;
+  background-color: white;
+  width: 200px;
+  height: 30px;
+  margin:5px;
+
+}
+
+.getstarted-btn button a{
+  text-decoration: none;
+  color:black
   
 }
