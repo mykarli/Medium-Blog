@@ -537,10 +537,10 @@ font-family: 'Gt super text book', Georgia, sans-serif;
 
 /* MEMBERSHIP CSS BÖLÜMÜ */
 
-.navbackground{
-  background-color: rgb(68, 121, 255);
-  border-bottom: 1px solid white;
+.navbarMember{
+  background-color: #4479ff !important; 
 }
+
 
 
 .section-8{
@@ -705,9 +705,11 @@ font-family: 'Gt super text book', Georgia, sans-serif;
 
 /* WRİTE CSS BÖLÜMÜ */
 
+.writeNavbar{
+  background-color: rgb(242, 77, 46) !important 
+}
 
-
-.navbackground{
+.write .navbar{
   background-color: rgb(242, 77, 46);
   border-bottom: 1px solid #000;
 }
@@ -1023,4 +1025,48 @@ font-family: 'Gt super text book', Georgia, sans-serif;
   text-decoration: none;
   color:black
   
+}
+
+
+/* SİGN İN CSS BÖLÜMÜ */
+
+
+
+.write{
+  width: 20px;
+  height: 20px;
+  
+}
+
+.bell{
+  width: 20px;
+  height: 20px;
+}
+
+.oguzhan{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  
+}
+
+.search{
+  width: 20px;
+  height: 20px;
+
+}
+
+.mediumicon{
+  width: 60px;
+  height: 50px;
+  cursor: pointer;
+  
+}
+
+.rightpart{
+  float: right;
+}
+
+.sign img{
+  padding-right: 10px;
 }
