@@ -1070,3 +1070,37 @@ font-family: 'Gt super text book', Georgia, sans-serif;
 .sign img{
   padding-right: 10px;
 }
+
+.signul{
+  display: flex;
+}
+
+.signul li{
+  list-style: none;
+  padding: 15px;
+}
+
+.signul li a{
+  text-decoration: none;
+  color: gray;
+}
+
+.myh23{
+  font-size: 14px;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(117, 117, 117, 1);
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+.myh24{
+  font-size: 20px;
+  color: rgba(41, 41, 41, 1);
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.phow{
+  
+}
