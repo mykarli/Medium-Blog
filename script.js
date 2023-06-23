@@ -1,5 +1,7 @@
 var body = document.getElementsByClassName('navbar')[0];
 var button = document.getElementsByClassName('nav-btn')[0];
+
+
 button.style.backgroundColor = 'black';
 body.style.borderBottom = 'none';
 body.style.backgroundColor = 'rgb(255,192,0)';

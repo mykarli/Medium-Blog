@@ -17,7 +17,7 @@
 <body>
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href=""><img src="Resimler/logo.png" alt="logo" width="60%"></a>
+      <a class="navbar-brand" href="#"><img src="Resimler/logo.png" alt="logo" width="60%"></a>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -30,7 +30,7 @@
             <a class="nav-link" href="write.html">Write</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</a>
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</a>
           </li>
           <button class="nav-btn"><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get
               Started</a></button>
@@ -162,7 +162,7 @@
 
   <hr>
 
-  <div class="section-3">
+  <div class="section-2">
     <div class="container">
       <div class="row">
         <div class="col-6">
@@ -371,12 +371,14 @@
     </div>
   </div>
     
+ 
+
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
-          <button type="button" class="btn-close" data-bs-dismiss="#staticBackdrop" aria-label="Close"></button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="signin">
           <div class="text-center mb-5 mt-3">
@@ -414,53 +416,49 @@
               applies to you</p>
           </div>
         </div>
+
       </div>
     </div>
   </div>
 
 
-
-
-
+  
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="getstarted">
-          <div class="text-center">
-            <h3 class="myh22">Join Medium.</h3>
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="getstarted">
+                <div class="text-center">
+                  <h3 class="myh22">Join Medium.</h3>
+                </div>
+              </div>
+              <div class="getstarted-btn text-center">
+                <button>
+                  <a href="#"><img src="/Resimler/google.png" alt="">Google</a>
+                </button>
+              </div>
+              <div class="getstarted-btn text-center">
+                <button>
+                  <a href="#"><img src="/Resimler/facebook.png" alt="">Facebook</a>
+                </button>
+              </div>
+              <div class="getstarted-btn text-center">
+                <button>
+                  <a href="#"><img src="/Resimler/gmail.png" alt="">Email</a>
+                </button>
+              </div>
+              <h6 class="myh22 text-center">Already have an account? <a class="getstarted" href="#"><b>Sign in</b></a></h6>
+      
+              <br><br>
+              <p class="text-center">Click “Sign In” to agree to Medium’s Terms of Service and acknowledge that Medium’s Privacy Policy
+                applies to you</p>
+            </div>
           </div>
         </div>
-        <div class="getstarted-btn text-center">
-          <button>
-            <a href="#"><img src="/Resimler/google.png" alt="">Google</a>
-          </button>
-        </div>
-        <div class="getstarted-btn text-center">
-          <button>
-            <a href="#"><img src="/Resimler/facebook.png" alt="">Facebook</a>
-          </button>
-        </div>
-        <div class="getstarted-btn text-center">
-          <button>
-            <a href="#"><img src="/Resimler/gmail.png" alt="">Email</a>
-          </button>
-        </div>
-        <h6 class="myh22 text-center">Already have an account? <a class="getstarted" href="#"><b>Sign in</b></a></h6>
-
-        <br><br>
-        <p class="text-center">Click “Sign In” to agree to Medium’s Terms of Service and acknowledge that Medium’s Privacy Policy
-          applies to you</p>
-      </div>
-    </div>
-  </div>
-  
-
-
 
 
   <script src="script.js"></script>

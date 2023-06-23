@@ -1,4 +1,4 @@
-
+/* 
 @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
 img{
   max-width: 100%;
@@ -156,11 +156,12 @@ body {
   background-color: white;
   transition: background-color 0.3 ease;
   padding: 10px;
+  color: green;
 
  }
 
  .buttondeneme:hover{
-  color: green;
+  color: black;
   cursor: pointer;
  }
 
@@ -198,7 +199,263 @@ body {
  cursor: pointer;
  letter-spacing: inherit;
 
+ } */
+
+
+
+ @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+ body {
+     margin: 0px;
  }
+
+ #container {
+     
+     position: absolute;
+     margin: auto;
+     width: 100vw;
+     height: 80pt;
+     top: 0;
+     bottom: 0;
+     
+     
+     filter: url(#threshold) blur(0.6px);
+ }
+
+
+ #text1, #text2 {
+     position: absolute;
+     width: 100%;
+     display: inline-block;
+     
+     font-family: 'Raleway', sans-serif;
+     font-size: 80pt;
+     
+     text-align: center;
+     
+     user-select: none;
+ }
+
+ .navbar{
+ position: sticky;
+ top: 0;
+ z-index: 9999;
+ border-bottom: 1px solid black; 
+ }
+
+ .nav-btn{
+     background-color: black;
+     border-radius: 3rem;
+     border: none;
+     width:auto;
+     margin-left: 1rem;
+ }
+
+ .nav-btn a{
+     text-decoration: none;
+     color: white;
+     
+ }
+
+ .navbar ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     
+ }
+ 
+ .navbar li {
+     display: inline-block;
+     margin-left: 10px;
+ }
+ 
+ .navbar li:first-child {
+     margin-left: 0;
+ }
+ 
+
+
+ 
+ .section-1{
+ background-color: rgb(255, 192, 0);
+ height: 400px;
+ }
+
+ .sec-top h1{
+ height: 100px;
+ font-size: 5rem;
+ color:black;
+ font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ 
+ .sec-bottom h3{
+ margin-top: 2rem;
+ }
+
+ .section-button{
+ width: 200px;
+ background-color: black;
+ color: white;
+ border-radius: 25px;
+ padding: 10px 20px;
+ margin-top: 3rem;
+ }
+
+ .img{
+ max-width: 20px;
+ }
+ 
+ .box{
+ margin: 1.5rem;
+ }
+
+ .box a{
+ color:black;
+ text-decoration: none;
+ 
+ }
+
+ .top{
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0;
+ padding: 5px;
+ background-color: white;
+ transition: background-color 0.3 ease;
+ padding: 10px ;
+
+ }
+ 
+ .top a{
+ z-index: 9999;
+ white-space: nowrap;
+ color: rgba(41, 41, 41, 1);
+ transition: 300ms ease;
+ border: 1px solid rgba(242, 242, 242, 1);
+ border-radius: 100px;
+ background-color: rgba(242, 242, 242, 1);
+ position: relative;
+ line-height: 20px;
+ font-size: 14px;
+ font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+ font-weight: 400;
+ padding: 8px 16px;
+ box-sizing: inherit;
+ text-decoration: none;
+ display: inline-flex;
+ margin-top: 1rem;
+
+ }
+ .top a:hover{
+ background-color:lightgray;
+ color:black;
+
+ }
+
+ .buttonmore{
+ background-color: white;
+ transition: background-color 0.3 ease;
+ padding: 10px;
+
+ }
+
+ .buttonmore:hover{
+ color: green;
+ cursor: pointer;
+ }
+
+ .bottom a{
+ color: gray;
+ text-decoration: none;
+ margin: 1.5rem;
+ }
+ .boxnumber{
+ position: relative;
+ right: 1.5rem;
+ font-size: 32px;
+ color:rgba(230, 230, 230, 1);
+ line-height: 38px;
+ letter-spacing: -0.014em;
+ font-weight: 500;
+ 
+ }
+
+ .font{
+ color: rgba(117, 117, 117, 1);
+ font-size: 13px;
+ line-height: 20p;
+ font-weight: 400;
+ font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
+ .font2 {
+ color: rgba(117, 117, 117, 1);
+ font-size: 16px;
+ overflow: hidden;
+ line-height: 20px;
+ max-height: 40px;
+ -webkit-line-clamp: 2;
+ cursor: pointer;
+ letter-spacing: inherit;
+
+ }
+
+.right{
+ position:-webkit-sticky;
+ position: sticky;
+ top: 0;
+ padding: 5px;
+ background-color:white;
+ transition: background-color 0.3 ease;
+ padding:10px;
+}
+
+.right a{
+ z-index: 9999;
+ white-space: nowrap;
+ background-color: rgba( 242,242,242,1);
+ color: rgba(41,41,41,1);
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ transition: 300ms ease;
+ border: 1px solid rgba(242,242,242,1);
+ position: relative;
+ border-radius: 100px;
+ padding: 8px 16px;
+ box-sizing: inherit;
+ text-decoration: none;
+ cursor: pointer;
+ display: inline-flex;
+ 
+}
+
+
+.right a:hover{
+ background-color:rgba(117, 117, 117, 1);
+ color: lightgray;
+}
+
+
+.buttonmore{
+ background-color:white;
+ transition: background-color 0.3 ease;
+ padding: 10px;
+}
+
+.buttonmore:hover { 
+ color: green;
+ cursor: pointer;
+}
+
+
+.bottom a:hover{
+ color:black;
+}
+
  
 /* OURSTORY CSS BÖLÜMÜ */
 
@@ -714,6 +971,7 @@ font-family: 'Gt super text book', Georgia, sans-serif;
   border-bottom: 1px solid #000;
 }
 
+
 .section-12{
     width: 100%;
     height: 670px;
@@ -957,8 +1215,16 @@ font-family: 'Gt super text book', Georgia, sans-serif;
   border: none;
   font-family: 'Soehne web buch', sans-serif;
   font-size: 20px;
+  border:1px solid white;
   
 }
+
+.buttoncheck:hover{
+  background-color: #000;
+  color: white;
+}
+
+/* MODAL KISIM */
 
 .social-btn button{
   border: .8px solid black;
@@ -995,6 +1261,8 @@ font-family: 'Gt super text book', Georgia, sans-serif;
   cursor: pointer;
   text-decoration: none;
 }
+   
+
 
 .getstarted-btn img{
   width: 18px;
@@ -1101,6 +1369,175 @@ font-family: 'Gt super text book', Georgia, sans-serif;
   font-weight: 700;
 }
 
-.phow{
+.myh25{
+  color: rgba(41, 41, 41, 41);
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.imgzaron{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.signinright{
+  padding: 0px 24px;
+}
+
+.signintop{
+  border-left: 1px solid rgba(242, 242, 242, 1);
+  padding-right: 24px;
+  padding-left: 24px;
+  border-bottom: 1px solid rgba(242, 242, 242, 1);
+
+}
+
+.see{
+  color: #1A8917;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
   
 }
+
+.see :hover{
+  background-color: #1A8917;
+  color: #000;
+}
+
+.icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+
+}
+
+.twitter2{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 99em;
+  border-color: rgb(168, 168, 168);
+  width: 212px;
+  background: rgb(255, 255, 255);
+  padding: 6px 12px 8px 16px;
+  font-size: 14px;
+  color: rgba(41, 41, 41, 1);
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  
+}
+
+.twitterbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maybe{
+  text-decoration: underline;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.myh26{
+  font-size: 16px;
+  color: rgba(41, 41, 41, 1);
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.twitterprofile{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.myh27{
+  font-size: 16px;
+  color: rgba(41, 41, 41, 1);
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.thisis{
+  overflow: hidden;
+  margin-top: 4px;
+  font-size: 13px;
+  color: rgba(117, 117, 117, 1);
+  font-weight: 400;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.follow{
+  width: 65px;
+  height: 31px;
+  font-size: 14px;
+  border-style: solid;
+  border-radius: 99em;
+  border-width: 1px;
+  padding: 5px 12px;
+  border-color: rgb(117, 117, 117);
+  background-color: white
+}
+
+.buttondeneme{
+  background-color: white;
+  transition: background-color 0.3 ease;
+  padding: 10px;
+  color: green;
+
+ }
+
+ .buttondeneme:hover{
+  color: black;
+  cursor: pointer;
+ }
+
+ .signinmid{
+
+  
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color:white;
+    transition: background-color 0.3 ease;
+    padding:10px;
+   }
+
+   
+   .signinmid a{
+    z-index: 9999;
+    white-space: nowrap;
+    background-color: rgba( 242,242,242,1);
+    color: rgba(41,41,41,1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 300ms ease;
+    border: 1px solid rgba(242,242,242,1);
+    position: relative;
+    border-radius: 100px;
+    padding: 8px 16px;
+    box-sizing: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-flex;
+    
+   }
+   
+ 
+   
