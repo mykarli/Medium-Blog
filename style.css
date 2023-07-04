@@ -205,9 +205,7 @@ body {
 
  @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
 
- body {
-     margin: 0px;
- }
+
 
  #container {
      
@@ -215,8 +213,9 @@ body {
      margin: auto;
      width: 100vw;
      height: 80pt;
-     top: 0;
-     bottom: 0;
+     top: 7rem;
+     left: 20rem;
+     
      
      
      filter: url(#threshold) blur(0.6px);
@@ -229,7 +228,7 @@ body {
      display: inline-block;
      
      font-family: 'Raleway', sans-serif;
-     font-size: 80pt;
+     font-size: 70pt;
      
      text-align: center;
      
@@ -455,6 +454,12 @@ body {
 .bottom a:hover{
  color:black;
 }
+
+@media screen and (max-width:850px) {
+  .mediaclass{
+    display: none;
+  }
+} 
 
  
 /* OURSTORY CSS BÖLÜMÜ */
